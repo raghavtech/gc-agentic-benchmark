@@ -448,6 +448,13 @@ environment's ambient load needed to be measured and controlled for, not assumed
 - **Repository:** [github.com/raghavtech/gc-agentic-benchmark](https://github.com/raghavtech/gc-agentic-benchmark)
   — full harness source, build configuration (Maven, zero external dependencies), orchestration
   scripts, this report, and the arXiv submission package.
+- **Archival DOI (Zenodo):** [10.5281/zenodo.21447519](https://doi.org/10.5281/zenodo.21447519)
+  — citable, versioned snapshot of the `v1.0.0` release, archived independently of GitHub.
+
+**Suggested citation:**
+> Venkateshappa, R. (2026). *Does Garbage Collection Disqualify Java from Agentic AI's Hot Path?
+> An Empirical Study of Tail Latency Under Token-Streaming Workloads* (v1.0.0).
+> https://doi.org/10.5281/zenodo.21447519
 - **JDK requirement:** JDK 21+, and specifically a **native build matching your host CPU
   architecture** — verify with `file $(which java)` before trusting timing-sensitive results;
   see §3.3.

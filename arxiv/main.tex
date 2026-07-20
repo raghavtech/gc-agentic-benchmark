@@ -524,6 +524,8 @@ environment's ambient load needed to be measured and controlled for, not assumed
   \item \textbf{Repository:} \url{https://github.com/raghavtech/gc-agentic-benchmark} --- full
     harness source, build configuration (Maven, zero external dependencies), orchestration
     scripts, and this report.
+  \item \textbf{Archival DOI (Zenodo):} \url{https://doi.org/10.5281/zenodo.21447519} ---
+    citable, versioned snapshot of the \code{v1.0.0} release, archived independently of GitHub.
   \item \textbf{JDK requirement:} JDK 21+, and specifically a \textbf{native build matching your
     host CPU architecture} --- verify with \code{file \$(which java)} before trusting
     timing-sensitive results; see \S\ref{sec:jvm}.
@@ -541,14 +543,23 @@ environment's ambient load needed to be measured and controlled for, not assumed
     \code{aggregate.csv} directly and writes both SVGs in \code{figures/}; no external dependency
     (pure-stdlib SVG generation, since matplotlib was not available in the environment this was
     authored in).
-  \item \textbf{Raw per-cell data:}
-    \code{data/results/<heap>/<collector>/c<concurrency>/rep<N>/} contains the raw JFR recording,
-    the raw per-token latency log, and a human-readable summary for every one of the 126
-    (+27 re-verification) cells reported in this study.
+  \item \textbf{Raw per-cell data} (JFR recordings and per-token latency logs for all 126 + 27
+    re-verification cells, $\sim$153GB total) is not separately archived due to its size. It is
+    fully regenerable by running the provided harness with the exact commands, JDK version, and
+    parameters documented above and in \S\ref{sec:jvm}--\ref{sec:noise}; only the small aggregated
+    summary (\code{data/results/aggregate.csv}) that backs every table and figure in this report
+    is included in the repository.
   \item \textbf{Full narrative of the study's development} --- every bug found, every design
     decision and why it was made, is preserved in the project's development log alongside the
     repository.
 \end{itemize}
+
+\noindent\textbf{Suggested citation:}
+\begin{quote}
+Venkateshappa, R. (2026). \emph{Does Garbage Collection Disqualify Java from Agentic AI's Hot
+Path? An Empirical Study of Tail Latency Under Token-Streaming Workloads} (v1.0.0).
+\url{https://doi.org/10.5281/zenodo.21447519}
+\end{quote}
 
 \begin{thebibliography}{9}
 
