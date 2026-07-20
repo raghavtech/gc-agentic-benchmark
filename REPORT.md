@@ -445,8 +445,9 @@ environment's ambient load needed to be measured and controlled for, not assumed
 
 ## 8. Reproducibility Appendix
 
-- **Repository:** `gc-agentic-benchmark/` (this directory) — full harness source, build
-  configuration (Maven, zero external dependencies), and orchestration scripts.
+- **Repository:** [github.com/raghavtech/gc-agentic-benchmark](https://github.com/raghavtech/gc-agentic-benchmark)
+  — full harness source, build configuration (Maven, zero external dependencies), orchestration
+  scripts, this report, and the arXiv submission package.
 - **JDK requirement:** JDK 21+, and specifically a **native build matching your host CPU
   architecture** — verify with `file $(which java)` before trusting timing-sensitive results;
   see §3.3.
