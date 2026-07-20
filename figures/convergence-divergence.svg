@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1132" height="424" viewBox="0 0 1132 424" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+<rect x="0" y="0" width="1132" height="424" fill="#fcfcfb"/>
+<text x="56" y="24" font-size="15" font-weight="600" fill="#0b0b0b">GC-attributable spike rate vs. concurrency, by heap size and collector</text>
+<text x="56" y="42" font-size="11" fill="#52514e">Mean across 3 repetitions, log-scaled x axis. Collectors converge at moderate concurrency,</text>
+<text x="56" y="57" font-size="11" fill="#52514e">diverge at the edge of each heap size’s capacity.</text>
+<text x="56" y="72" font-size="12" font-weight="600" fill="#0b0b0b">512MB heap</text>
+<line x1="56" y1="334.0" x2="356" y2="334.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48" y="337.0" font-size="10" fill="#898781" text-anchor="end">0%</text>
+<line x1="56" y1="290.9" x2="356" y2="290.9" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48" y="293.9" font-size="10" fill="#898781" text-anchor="end">10%</text>
+<line x1="56" y1="247.8" x2="356" y2="247.8" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48" y="250.8" font-size="10" fill="#898781" text-anchor="end">20%</text>
+<line x1="56" y1="204.7" x2="356" y2="204.7" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48" y="207.7" font-size="10" fill="#898781" text-anchor="end">30%</text>
+<line x1="56" y1="161.6" x2="356" y2="161.6" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48" y="164.6" font-size="10" fill="#898781" text-anchor="end">40%</text>
+<line x1="56" y1="118.5" x2="356" y2="118.5" stroke="#e1e0d9" stroke-width="1"/>
+<text x="48" y="121.5" font-size="10" fill="#898781" text-anchor="end">50%</text>
+<line x1="56.0" y1="334" x2="56.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="56.0" y="350" font-size="10" fill="#898781" text-anchor="middle">100</text>
+<line x1="206.0" y1="334" x2="206.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="206.0" y="350" font-size="10" fill="#898781" text-anchor="middle">1,000</text>
+<line x1="356.0" y1="334" x2="356.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="356.0" y="350" font-size="10" fill="#898781" text-anchor="middle">10,000</text>
+<line x1="56" y1="334" x2="356" y2="334" stroke="#c3c2b7" stroke-width="1"/>
+<path d="M 56.0 332.7 L 160.8 321.4" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 160.8 321.4 L 206.0 311.2" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<circle cx="56.0" cy="332.7" r="3.5" fill="#2a78d6"/>
+<circle cx="160.8" cy="321.4" r="3.5" fill="#2a78d6"/>
+<circle cx="206.0" cy="311.2" r="3.5" fill="#2a78d6"/>
+<path d="M 56.0 322.1 L 160.8 323.7" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<path d="M 160.8 323.7 L 206.0 302.5" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<circle cx="56.0" cy="322.1" r="3.5" fill="#008300"/>
+<circle cx="160.8" cy="323.7" r="3.5" fill="#008300"/>
+<circle cx="206.0" cy="302.5" r="3.5" fill="#008300"/>
+<path d="M 56.0 332.1 L 160.8 330.3" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 160.8 330.3 L 206.0 306.4" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<circle cx="56.0" cy="332.1" r="3.5" fill="#e87ba4"/>
+<circle cx="160.8" cy="330.3" r="3.5" fill="#e87ba4"/>
+<circle cx="206.0" cy="306.4" r="3.5" fill="#e87ba4"/>
+<text x="352" y="294.5" font-size="9.5" fill="#008300" text-anchor="end" font-weight="600">Generational ZGC</text>
+<text x="352" y="306.5" font-size="9.5" fill="#e87ba4" text-anchor="end" font-weight="600">Shenandoah</text>
+<text x="352" y="318.5" font-size="9.5" fill="#2a78d6" text-anchor="end" font-weight="600">G1</text>
+<text x="396" y="72" font-size="12" font-weight="600" fill="#0b0b0b">1GB heap</text>
+<line x1="396" y1="334.0" x2="696" y2="334.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="396" y1="290.9" x2="696" y2="290.9" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="396" y1="247.8" x2="696" y2="247.8" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="396" y1="204.7" x2="696" y2="204.7" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="396" y1="161.6" x2="696" y2="161.6" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="396" y1="118.5" x2="696" y2="118.5" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="396.0" y1="334" x2="396.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="396.0" y="350" font-size="10" fill="#898781" text-anchor="middle">100</text>
+<line x1="546.0" y1="334" x2="546.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="546.0" y="350" font-size="10" fill="#898781" text-anchor="middle">1,000</text>
+<line x1="696.0" y1="334" x2="696.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="696.0" y="350" font-size="10" fill="#898781" text-anchor="middle">10,000</text>
+<line x1="396" y1="334" x2="696" y2="334" stroke="#c3c2b7" stroke-width="1"/>
+<path d="M 396.0 330.1 L 500.8 325.5" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 500.8 325.5 L 546.0 316.2" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 546.0 316.2 L 605.7 314.6" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<circle cx="396.0" cy="330.1" r="3.5" fill="#2a78d6"/>
+<circle cx="500.8" cy="325.5" r="3.5" fill="#2a78d6"/>
+<circle cx="546.0" cy="316.2" r="3.5" fill="#2a78d6"/>
+<circle cx="605.7" cy="314.6" r="3.5" fill="#2a78d6"/>
+<path d="M 396.0 331.1 L 500.8 315.6" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<path d="M 500.8 315.6 L 546.0 320.2" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<path d="M 546.0 320.2 L 605.7 282.7" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<circle cx="396.0" cy="331.1" r="3.5" fill="#008300"/>
+<circle cx="500.8" cy="315.6" r="3.5" fill="#008300"/>
+<circle cx="546.0" cy="320.2" r="3.5" fill="#008300"/>
+<circle cx="605.7" cy="282.7" r="3.5" fill="#008300"/>
+<path d="M 396.0 334.0 L 500.8 330.8" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 500.8 330.8 L 546.0 329.3" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 546.0 329.3 L 605.7 294.8" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<circle cx="396.0" cy="334.0" r="3.5" fill="#e87ba4"/>
+<circle cx="500.8" cy="330.8" r="3.5" fill="#e87ba4"/>
+<circle cx="546.0" cy="329.3" r="3.5" fill="#e87ba4"/>
+<circle cx="605.7" cy="294.8" r="3.5" fill="#e87ba4"/>
+<text x="692" y="274.7" font-size="9.5" fill="#008300" text-anchor="end" font-weight="600">Generational ZGC</text>
+<text x="692" y="286.8" font-size="9.5" fill="#e87ba4" text-anchor="end" font-weight="600">Shenandoah</text>
+<text x="692" y="306.6" font-size="9.5" fill="#2a78d6" text-anchor="end" font-weight="600">G1</text>
+<text x="736" y="72" font-size="12" font-weight="600" fill="#0b0b0b">2GB heap</text>
+<line x1="736" y1="334.0" x2="1036" y2="334.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="736" y1="290.9" x2="1036" y2="290.9" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="736" y1="247.8" x2="1036" y2="247.8" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="736" y1="204.7" x2="1036" y2="204.7" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="736" y1="161.6" x2="1036" y2="161.6" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="736" y1="118.5" x2="1036" y2="118.5" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="736.0" y1="334" x2="736.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="736.0" y="350" font-size="10" fill="#898781" text-anchor="middle">100</text>
+<line x1="886.0" y1="334" x2="886.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="886.0" y="350" font-size="10" fill="#898781" text-anchor="middle">1,000</text>
+<line x1="1036.0" y1="334" x2="1036.0" y2="338" stroke="#c3c2b7" stroke-width="1"/>
+<text x="1036.0" y="350" font-size="10" fill="#898781" text-anchor="middle">10,000</text>
+<line x1="736" y1="334" x2="1036" y2="334" stroke="#c3c2b7" stroke-width="1"/>
+<path d="M 736.0 333.0 L 840.8 328.0" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 840.8 328.0 L 886.0 321.1" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 886.0 321.1 L 945.7 322.4" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 945.7 322.4 L 990.8 291.2" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 990.8 291.2 L 1017.3 274.9" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<path d="M 1017.3 274.9 L 1036.0 287.6" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<circle cx="736.0" cy="333.0" r="3.5" fill="#2a78d6"/>
+<circle cx="840.8" cy="328.0" r="3.5" fill="#2a78d6"/>
+<circle cx="886.0" cy="321.1" r="3.5" fill="#2a78d6"/>
+<circle cx="945.7" cy="322.4" r="3.5" fill="#2a78d6"/>
+<circle cx="990.8" cy="291.2" r="3.5" fill="#2a78d6"/>
+<circle cx="1017.3" cy="274.9" r="3.5" fill="#2a78d6"/>
+<circle cx="1036.0" cy="287.6" r="3.5" fill="#2a78d6"/>
+<path d="M 736.0 333.3 L 840.8 329.1" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<path d="M 840.8 329.1 L 886.0 321.1" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<path d="M 886.0 321.1 L 945.7 321.5" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<path d="M 945.7 321.5 L 990.8 295.6" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<path d="M 990.8 295.6 L 1036.0 119.6" fill="none" stroke="#008300" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<circle cx="736.0" cy="333.3" r="3.5" fill="#008300"/>
+<circle cx="840.8" cy="329.1" r="3.5" fill="#008300"/>
+<circle cx="886.0" cy="321.1" r="3.5" fill="#008300"/>
+<circle cx="945.7" cy="321.5" r="3.5" fill="#008300"/>
+<circle cx="990.8" cy="295.6" r="3.5" fill="#008300"/>
+<circle cx="1036.0" cy="119.6" r="3.5" fill="#fcfcfb" stroke="#008300" stroke-width="2"/>
+<circle cx="1017.3" cy="320.0" r="4" fill="#d03b3b"/>
+<text x="1017.3" y="313.0" font-size="9" fill="#d03b3b" text-anchor="middle" font-weight="600">OOM</text>
+<path d="M 736.0 334.0 L 840.8 331.3" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 840.8 331.3 L 886.0 330.1" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 886.0 330.1 L 945.7 326.8" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 945.7 326.8 L 990.8 283.6" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 990.8 283.6 L 1017.3 184.7" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<path d="M 1017.3 184.7 L 1036.0 250.4" fill="none" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<circle cx="736.0" cy="334.0" r="3.5" fill="#e87ba4"/>
+<circle cx="840.8" cy="331.3" r="3.5" fill="#e87ba4"/>
+<circle cx="886.0" cy="330.1" r="3.5" fill="#e87ba4"/>
+<circle cx="945.7" cy="326.8" r="3.5" fill="#e87ba4"/>
+<circle cx="990.8" cy="283.6" r="3.5" fill="#e87ba4"/>
+<circle cx="1017.3" cy="184.7" r="3.5" fill="#e87ba4"/>
+<circle cx="1036.0" cy="250.4" r="3.5" fill="#e87ba4"/>
+<text x="1032" y="111.6" font-size="9.5" fill="#008300" text-anchor="end" font-weight="600">Generational ZGC</text>
+<text x="1032" y="242.4" font-size="9.5" fill="#e87ba4" text-anchor="end" font-weight="600">Shenandoah</text>
+<text x="1032" y="279.6" font-size="9.5" fill="#2a78d6" text-anchor="end" font-weight="600">G1</text>
+<line x1="56" y1="368" x2="74" y2="368" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
+<text x="80" y="372" font-size="11" fill="#52514e">G1</text>
+<line x1="120.4" y1="368" x2="138.4" y2="368" stroke="#008300" stroke-width="2" stroke-linecap="round"/>
+<text x="144.4" y="372" font-size="11" fill="#52514e">Generational ZGC</text>
+<line x1="271.6" y1="368" x2="289.6" y2="368" stroke="#e87ba4" stroke-width="2" stroke-linecap="round"/>
+<text x="295.6" y="372" font-size="11" fill="#52514e">Shenandoah</text>
+<circle cx="385.6" cy="368" r="4" fill="#d03b3b"/>
+<text x="395.6" y="372" font-size="11" fill="#52514e">OOM (zero surviving repetitions)</text>
+</svg>

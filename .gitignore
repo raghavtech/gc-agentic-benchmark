@@ -1,0 +1,12 @@
+target/
+*.jfr
+*.jsonl
+
+# Raw per-cell benchmark data (JFR recordings + latency logs, ~153GB total,
+# individual files up to 4.7GB) is far too large for git -- it's hosted on
+# Zenodo instead. Only the small aggregated summary that backs every table
+# and figure in the report is versioned here.
+data/*
+!data/results/
+data/results/*
+!data/results/aggregate.csv
